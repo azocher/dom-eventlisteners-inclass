@@ -3,9 +3,14 @@
     <head>
         <title>DOM Event Listeners</title>
         <script src="script.js"></script>
+        <script>
+             function hola() {
+                document.querySelector("div").innerText = "Hola!"
+            }
+        </script>
     </head>
     <body>
         <div>Hello!</div>
-        <button>Click Me</button>
+        <button onclick="hola()">Click Me</button>
     </body>
 </html>
